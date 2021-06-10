@@ -79,5 +79,12 @@ export const useStyles = makeStyles(theme => ({
     },
     fixedHeight: {
         height: 240
-    }
+    },
+    authCard: {
+        width: '22em',
+        [theme.breakpoints.up('md')]: {
+            width: '28em',
+        }
+    },
+
 }));

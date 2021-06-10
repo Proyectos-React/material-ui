@@ -37,7 +37,7 @@ export const PagesRouter = () => {
     const classes = useStyles();
     return (
         <ThemeProvider theme={ darkTheme }>
-            <div className={classes.root}>
+            <div className={classes.root}  >
                 <CssBaseline />
                 <Navbar useStyles = { useStyles } />
                 <Sidebar useStyles = { useStyles } />
